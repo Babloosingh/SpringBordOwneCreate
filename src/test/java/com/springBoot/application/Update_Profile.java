@@ -38,8 +38,8 @@ public class Update_Profile {
 
 		int id = 5;
 		Employee employee = restTemplate.getForObject(getRootUrl() + "/employees/" + id, Employee.class);
-		employee.setName("Dipak Singh");
-		employee.setEmail("dipaksingh@gmail.com");
+		employee.setName("Dipak lal");
+		employee.setEmail("dipaklal@gmail.com");
 
 		restTemplate.put(getRootUrl() + "/employees/" + id, employee);
 

@@ -37,10 +37,10 @@ public class CreateEmploye {
 		// try {
 		System.out.println("Create New User");
 		Employee employee = new Employee();
-		employee.setName("Raj Singh");
-		employee.setEmail("rajsingh@gmail.com");
+		employee.setName("Sushil Singh");
+		employee.setEmail("sushilsingh@gmail.com");
 		employee.setCity("UP");
-		employee.setOrder("25");
+		employee.setOrder("26");
 
 		ResponseEntity<Employee> postResponse = restTemplate.postForEntity(getRootUrl() + "/employees", employee,
 				Employee.class);
