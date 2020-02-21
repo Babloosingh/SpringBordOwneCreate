@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "Converted JUnit suite" >
+   <test name = "JUnitTests" junit="true">
+    <classes>
+      <class name="com.springBoot.application.Get_EmploeeAll"/>
+      <class name="com.springBoot.application.Update_Profile"/>
+      <class name="com.springBoot.application.Get_EmployeeByID"/>
+      <class name="com.springBoot.application.Delete_employee"/>
+      <class name="com.springBoot.application.CreateEmploye"/>
+    </classes>
+  </test> 
+</suite> 
